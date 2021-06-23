@@ -21,8 +21,7 @@ public class DemoController {
   public String autoBuild(){
     return "ok";
   }
-
-
+  
   @GetMapping("build2")
   public String autoBuild2(){
     return "OK";
