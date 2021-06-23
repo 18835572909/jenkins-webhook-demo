@@ -17,4 +17,8 @@ public class DemoController {
     return "pong";
   }
 
+  @GetMapping("build")
+  public String autoBuild(){
+    return "ok";
+  }
 }
